@@ -8,13 +8,13 @@ class MergeSort(Sort):
         return
 
     def mergesort(self, list):
-        '''        
+        """
         Sort the list
-        and calculate the compare times as well as jump times 
-        
+        and calculate the compare times as well as jump times
+
         input: list
         store: self.compare_time, self.jump_time
-        '''
+        """
         if len(list) <= 1:
             return list
         mid = len(list) // 2     
